@@ -1,3 +1,8 @@
-module.exports = (str) => {
+const emoji = (str) => {
     return `💩${str}💩`
+}
+
+
+module.exports = {
+    emoji
 }
