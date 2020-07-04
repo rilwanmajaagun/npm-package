@@ -1,10 +1,10 @@
-// const emoji = (str) => {
-//     return `💩${str}💩`
-// };
+const emoji = (str) => {
+    return `💩${str}💩`
+};
 
-// const solveMaths = (a,b)=>{
-//     return a+b;
-// };
+const solveMaths = (a,b)=>{
+    return a+b;
+};
 
 const randomNumberGenerator = (min,max) =>{
     if(typeof(max)!=='number' && typeof(min) !== 'number'){
@@ -14,7 +14,7 @@ const randomNumberGenerator = (min,max) =>{
 }
 
 module.exports = {
-    // emoji,
-    // solveMaths,
+    emoji,
+    solveMaths,
     randomNumberGenerator
 };
